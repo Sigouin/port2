@@ -1,13 +1,13 @@
 {
   "workbench.colorCustomizations": {
-    "activityBar.activeBackground": "#cfbcff",
-    "activityBar.background": "#cfbcff",
+    "activityBar.activeBackground": "#f4efff",
+    "activityBar.background": "#f4efff",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
     "activityBarBadge.background": "#ff7c40",
     "activityBarBadge.foreground": "#15202b",
     "commandCenter.border": "#15202b99",
-    "sash.hoverBorder": "#cfbcff",
+    "sash.hoverBorder": "#f4efff",
     "statusBar.background": "#cfbcff",
     "statusBar.foreground": "#15202b",
     "statusBarItem.hoverBackground": "#aa89ff",
@@ -17,7 +17,7 @@
     "titleBar.activeForeground": "#15202b",
     "titleBar.inactiveBackground": "#cfbcff99",
     "titleBar.inactiveForeground": "#15202b99"
-},
+  },
   "peacock.color": "#CFBCFF",
   "cSpell.words": [
     "Sigouin"
