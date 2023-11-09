@@ -2,13 +2,9 @@ import Image from "next/image";
 import itsAMeAMario from "../public/assets/images/rsz_13b83a2491.png";
 import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-
-const HARDCODED_NAV = [
-  "dashdoor",
-  "whackamole",
-  "package.json crawler",
-  "rating component",
-];
+import BotNav from "./ui/dashboard/botnav";
+import projects from "./data/projects";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -49,10 +45,13 @@ export default function Home() {
 
       <nav className="">
         <h2>Projects</h2>
+        <BotNav />
         <div className="flex items-center justify-between w-full">
           <ul className="flex gap-4">
-            {HARDCODED_NAV.map((navItem) => (
-              <li key={navItem}>{navItem}</li>
+            {projects.map((navItem) => (
+              <li key={navItem.id}>
+                <Link href={navItem.id}>{navItem.name}</Link>
+              </li>
             ))}
           </ul>
           <ul className="flex gap-2">

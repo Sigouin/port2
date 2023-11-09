@@ -21,6 +21,7 @@ export default function RootLayout({
       <body className={`${dank.variable} font-sans`}>
         <div className="main-content">
           {children}
+          poop
           <Footer />
         </div>
       </body>
