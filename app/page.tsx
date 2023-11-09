@@ -1,8 +1,6 @@
 import Image from "next/image";
 import itsAMeAMario from "../public/assets/images/rsz_13b83a2491.png";
-
 import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
-
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
 const HARDCODED_NAV = [
